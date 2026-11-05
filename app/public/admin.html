@@ -1,0 +1,5 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin</title><link rel="stylesheet" href="/style.css"></head>
+<body><h1>Admin</h1><p><a href="/">Back to files</a></p><p id="err" class="err"></p>
+<h2>Add / update user</h2>
+<form id="form"><input id="name" placeholder="User ID" required><input id="pw" type="password" placeholder="Password (blank = keep)"><select id="role"><option value="user">user</option><option value="admin">admin</option></select><div id="fileboxes"></div><button>Save</button></form>
+<h2>Users</h2><div id="users"></div><h2>Ratings</h2><div id="ratings"></div><script src="/admin.js"></script></body></html>
